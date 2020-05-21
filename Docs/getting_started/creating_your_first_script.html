@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../assets/css/styles.min.css">
 </head>
 
-<body>
+<body class="text-black-50">
     <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-dark text-uppercase" id="mainNav">
         <div class="container"><img src="../../assets/img/wiki.png" width="64" height="64"><a class="navbar-brand js-scroll-trigger" href="../../index.html">Spigotjs</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
                 data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -23,10 +23,22 @@
             </div>
         </div>
     </nav>
-    <div class="container bg-white border rounded-0 border-dark shadow"><br>
+    <div class="container text-black-50 bg-white border rounded-0 border-dark shadow"><br>
 
         <h1 class="display-3 text-center" style="color: #000000;letter-spacing: 0;font-style: normal;font-weight: 600;font-family: Montserrat, -apple;">Creating your first script</h1><br>
-</div>
+<p>To create a script, you need to create a file with the ending <em>.js (for example: bedwars.js)</em>
+The file needs to be located in your <em>scripts</em> folder.</p>
+<p>Once the file is created, open it with a editor of your choise <em>(We recommend VSCode)</em></p>
+
+<pre><code class="javascript language-javascript">print("Hello Spigot!")
+</code></pre>
+
+<p>Insert following into the file, save it and execute <em>/jsreload</em> ingame.
+You should see the line <em>Hello Spigot!</em> in your console.</p>
+<script src="/highlight.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script></div>
     <script src="../../assets/js/jquery.min.js"></script>
     <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../../assets/js/script.min.js"></script>
